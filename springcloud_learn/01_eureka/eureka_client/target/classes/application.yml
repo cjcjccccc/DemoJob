@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: eureka_client
+
+eureka:
+  client:
+    service-url: #eureka ����˺Ϳͻ��˵Ľ�����ַ,��Ⱥ��,����
+      defaultZone: http://eureka2:8761/eureka,http://eureka3:8761/eureka,http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+  server:
+
+    eviction-interval-timer-in-ms: 30000 #�����Ч�ڵ��Ƶ��(����)--����ɾ��
+    enable-self-preservation: true #server �����ұ������ƣ�
+    renewal-percent-threshold: 0.85 #85%�������һ�������� client �ˣ�15 �������� 85%�� client û����Լ����ô�����������ԭ����Ϊ����ʵ��û�����⣬�����޳����ǣ����ɷŹ�һ�򣬲��ɴ�ɱһ����ȷ���߿���
+
+  instance:
+      hostname: localhost # ������������
+      instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port} # ʵ�� id
+      prefer-ip-address: true # �����б��� ip ����ʽչʾ
+      lease-renewal-interval-in-seconds: 10 # ��ʾ eureka client ���������� server �˵�Ƶ��
+      lease-expiration-duration-in-seconds: 20 #��ʾ eureka server ����һ���յ� client ������֮�󣬵ȴ���һ�������ĳ�ʱʱ�䣬�����ʱ������û�յ���һ�����������Ƴ���ʵ��
+
+
+
+

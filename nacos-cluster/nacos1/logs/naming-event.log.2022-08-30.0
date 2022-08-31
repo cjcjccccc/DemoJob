@@ -1,0 +1,46 @@
+2022-08-30 15:24:03,496 INFO DEFAULT_GROUP@@nacos-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-30 15:24:03,498 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-30 15:51:14,736 INFO DEFAULT_GROUP@@nacos-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-30 15:51:14,736 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.80.1:8081_true,
+
+2022-08-30 15:59:46,317 INFO DEFAULT_GROUP@@nacos-provider-2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-30 15:59:46,317 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider-2, ips: 192.168.80.1:8082_true,
+
+2022-08-30 16:02:11,128 INFO DEFAULT_GROUP@@nacos-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-30 16:02:11,128 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.80.1:8082_true,192.168.80.1:8081_true,
+
+2022-08-30 16:02:21,562 INFO {POS} {IP-DISABLED} valid: 192.168.80.1:8082@DEFAULT@DEFAULT_GROUP@@nacos-provider-2, region: unknown, msg: client timeout after 15000, last beat: 1661846521632
+
+2022-08-30 16:02:36,639 INFO DEFAULT_GROUP@@nacos-provider-2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-30 16:02:36,639 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider-2, ips: 
+
+2022-08-30 16:05:00,712 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.80.1:8082_true,192.168.80.1:8081_true,
+
+2022-08-30 16:05:05,982 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.80.1:8082_true,192.168.80.1:8081_true,
+
+2022-08-30 16:18:14,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.80.1:8082_true,192.168.80.1:8081_true,
+
+2022-08-30 16:18:20,645 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-30 16:21:16,304 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-30 16:22:39,165 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-30 16:24:20,482 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-30 17:11:33,692 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-30 17:11:33,692 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.80.1:80_true,
+
+2022-08-30 17:13:13,773 INFO {POS} {IP-DISABLED} valid: 192.168.80.1:8080@DEFAULT@DEFAULT_GROUP@@nacos-client-a, region: unknown, msg: client timeout after 15000, last beat: 1661850776334
+
+2022-08-30 17:13:28,807 INFO DEFAULT_GROUP@@nacos-client-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-30 17:13:28,807 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-client-a, ips: 
+

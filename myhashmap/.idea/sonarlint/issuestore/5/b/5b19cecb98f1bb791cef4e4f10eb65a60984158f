@@ -1,0 +1,27 @@
+
+R
+java:S3740—"/Provide the parametrized type for this generic.(¹œÅÈùÿÿÿÿ8ÿè§óª0
+R
+java:S3740¦"/Provide the parametrized type for this generic.(¹œÅÈùÿÿÿÿ8é§óª0
+R
+java:S3740µ"/Provide the parametrized type for this generic.(ªòŠ§üÿÿÿÿ8é§óª0
+M
+java:S3740¶"/Provide the parametrized type for this generic.(˜íÍ8é§óª0
+Q
+java:S1121Î".Extract the assignment out of this expression.(È½šÍúÿÿÿÿ8é§óª0
+_
+java:S2259s"BA "NullPointerException" could be thrown; "tail" is nullable here.( íßà8Ùî§óª0
+\
+java:S2259l"?A "NullPointerException" could be thrown; "k" is nullable here.(Îù÷Š8Úî§óª0
+A
+java:S1659?"Declare "e" on a separate line.(¯¹®ñúÿÿÿÿ8“ğ§óª0
+D
+java:S1659U""Declare "hash" on a separate line.(†Ç¡ñûÿÿÿÿ8ğ§óª0
+9
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ8£ğ§óª0
+9
+java:S3626­"Remove this redundant jump.(ÉŠ©ƒ8¦ğ§óª0
+[	java:S106»"9Replace this use of System.out or System.err by a logger.(¾ôÒ‡ıÿÿÿÿ8ªğ§óª0
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8«ğ§óª0
+_
+java:S1854Æ"<Remove this useless assignment to local variable "newTable".(Ôı¦şÿÿÿÿ8¬ğ§óª0

@@ -1,0 +1,30 @@
+2022-08-31 10:38:02,650 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 10:38:02,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 10:55:51,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 11:09:13,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:07,957 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:25:07,960 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:22,926 INFO {POS} {IP-DISABLED} valid: 192.168.80.1:8080@DEFAULT@DEFAULT_GROUP@@config-client-a, region: unknown, msg: client timeout after 15000, last beat: 1661927107206
+
+2022-08-31 14:25:37,961 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-31 14:25:37,961 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:27:41,311 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:27:41,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:27:46,871 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:47:15,409 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:47:15,410 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:47:16,602 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+

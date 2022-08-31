@@ -1,0 +1,6 @@
+
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(’ï÷¼ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(£§
+Q
+java:S1128"/Remove this unused import 'sun.misc.Contended'.(’ï÷¼ıÿÿÿÿ8Æò½­0

@@ -1,0 +1,30 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(Ü¨ª8¾ã†÷ª0
+R
+java:S3740—"/Provide the parametrized type for this generic.(¹œÅÈùÿÿÿÿ8¾ã†÷ª0
+R
+java:S3740¦"/Provide the parametrized type for this generic.(¹œÅÈùÿÿÿÿ8¾ã†÷ª0
+R
+java:S3740µ"/Provide the parametrized type for this generic.(ªòŠ§üÿÿÿÿ8¾ã†÷ª0
+M
+java:S3740¶"/Provide the parametrized type for this generic.(˜íÍ8¾ã†÷ª0
+Q
+java:S1121Î".Extract the assignment out of this expression.(È½šÍúÿÿÿÿ8¾ã†÷ª0
+_
+java:S2259s"BA "NullPointerException" could be thrown; "tail" is nullable here.( íßà8¼ä†÷ª0
+\
+java:S2259l"?A "NullPointerException" could be thrown; "k" is nullable here.(Îù÷Š8½ä†÷ª0
+A
+java:S1659?"Declare "e" on a separate line.(¯¹®ñúÿÿÿÿ8Âä†÷ª0
+D
+java:S1659U""Declare "hash" on a separate line.(†Ç¡ñûÿÿÿÿ8Ää†÷ª0
+j	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯—ÒQ8Åä†÷ª0
+9
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ8Æä†÷ª0
+9
+java:S3626­"Remove this redundant jump.(ÉŠ©ƒ8Æä†÷ª0
+[	java:S106»"9Replace this use of System.out or System.err by a logger.(¾ôÒ‡ıÿÿÿÿ8Èä†÷ª0
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Èä†÷ª0
+_
+java:S1854Æ"<Remove this useless assignment to local variable "newTable".(Ôı¦şÿÿÿÿ8Èä†÷ª0

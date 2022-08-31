@@ -1,0 +1,180 @@
+2022-08-31 09:23:27,466 INFO notifyConnectTimeout:200
+
+2022-08-31 09:23:27,475 INFO notifySocketTimeout:8000
+
+2022-08-31 09:23:27,475 INFO isHealthCheck:true
+
+2022-08-31 09:23:27,475 INFO maxHealthCheckFailCount:12
+
+2022-08-31 09:23:27,475 INFO maxContent:10485760
+
+2022-08-31 09:23:31,266 INFO use local db service for init
+
+2022-08-31 09:23:34,403 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2022-08-31 09:23:34,406 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2022-08-31 09:23:34,508 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:34,599 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:34,701 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:34,777 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:34,863 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:34,932 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,006 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,082 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,151 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,232 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,315 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,391 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,475 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,579 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,667 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2022-08-31 09:23:35,717 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL220830145913010' defined on 'USERS'.
+
+2022-08-31 09:23:35,727 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2022-08-31 09:23:35,727 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-31 09:23:35,727 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-31 09:23:35,728 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-31 09:23:35,728 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-31 09:23:35,728 INFO use StandaloneDatabaseOperateImpl
+
+2022-08-31 09:23:36,602 WARN DumpService start
+
+2022-08-31 09:23:36,605 INFO start clear all config-info.
+
+2022-08-31 09:23:36,605 WARN clear all config-info failed.
+
+2022-08-31 09:23:36,605 WARN clear all config-info-tenant failed.
+
+2022-08-31 09:23:36,612 INFO start clear all config-info-beta.
+
+2022-08-31 09:23:36,612 WARN clear all config-info-beta failed.
+
+2022-08-31 09:23:36,612 WARN clear all config-info-beta-tenant failed.
+
+2022-08-31 09:23:36,617 INFO start clear all config-info-tag.
+
+2022-08-31 09:23:36,617 WARN clear all config-info-tag failed.
+
+2022-08-31 09:23:36,617 WARN clear all config-info-tag-tenant failed.
+
+2022-08-31 14:15:30,504 INFO notifyConnectTimeout:200
+
+2022-08-31 14:15:30,506 INFO notifySocketTimeout:8000
+
+2022-08-31 14:15:30,506 INFO isHealthCheck:true
+
+2022-08-31 14:15:30,506 INFO maxHealthCheckFailCount:12
+
+2022-08-31 14:15:30,506 INFO maxContent:10485760
+
+2022-08-31 14:15:30,507 INFO spring.datasource.platform:mysql
+
+2022-08-31 14:15:33,671 WARN DumpService start
+
+2022-08-31 14:15:33,671 INFO start clear all config-info.
+
+2022-08-31 14:15:33,672 WARN clear all config-info failed.
+
+2022-08-31 14:15:33,672 WARN clear all config-info-tenant failed.
+
+2022-08-31 14:15:33,673 INFO start clear all config-info-beta.
+
+2022-08-31 14:15:33,673 WARN clear all config-info-beta failed.
+
+2022-08-31 14:15:33,673 WARN clear all config-info-beta-tenant failed.
+
+2022-08-31 14:15:33,674 INFO start clear all config-info-tag.
+
+2022-08-31 14:15:33,674 WARN clear all config-info-tag failed.
+
+2022-08-31 14:15:33,674 WARN clear all config-info-tag-tenant failed.
+
+2022-08-31 14:24:15,737 INFO notifyConnectTimeout:200
+
+2022-08-31 14:24:15,739 INFO notifySocketTimeout:8000
+
+2022-08-31 14:24:15,739 INFO isHealthCheck:true
+
+2022-08-31 14:24:15,739 INFO maxHealthCheckFailCount:12
+
+2022-08-31 14:24:15,739 INFO maxContent:10485760
+
+2022-08-31 14:24:15,739 INFO spring.datasource.platform:mysql
+
+2022-08-31 14:24:20,084 WARN DumpService start
+
+2022-08-31 14:24:20,084 INFO start clear all config-info.
+
+2022-08-31 14:24:20,085 WARN clear all config-info failed.
+
+2022-08-31 14:24:20,085 WARN clear all config-info-tenant failed.
+
+2022-08-31 14:24:20,087 INFO start clear all config-info-beta.
+
+2022-08-31 14:24:20,087 WARN clear all config-info-beta failed.
+
+2022-08-31 14:24:20,087 WARN clear all config-info-beta-tenant failed.
+
+2022-08-31 14:24:20,088 INFO start clear all config-info-tag.
+
+2022-08-31 14:24:20,088 WARN clear all config-info-tag failed.
+
+2022-08-31 14:24:20,088 WARN clear all config-info-tag-tenant failed.
+
+2022-08-31 14:24:20,090 WARN initialDelay:143
+
+2022-08-31 14:27:36,064 INFO notifyConnectTimeout:200
+
+2022-08-31 14:27:36,069 INFO notifySocketTimeout:8000
+
+2022-08-31 14:27:36,069 INFO isHealthCheck:true
+
+2022-08-31 14:27:36,069 INFO maxHealthCheckFailCount:12
+
+2022-08-31 14:27:36,069 INFO maxContent:10485760
+
+2022-08-31 14:27:36,070 INFO spring.datasource.platform:mysql
+
+2022-08-31 14:27:40,593 WARN DumpService start
+
+2022-08-31 14:27:40,593 INFO start clear all config-info.
+
+2022-08-31 14:27:40,594 WARN clear all config-info failed.
+
+2022-08-31 14:27:40,594 WARN clear all config-info-tenant failed.
+
+2022-08-31 14:27:40,596 INFO start clear all config-info-beta.
+
+2022-08-31 14:27:40,596 WARN clear all config-info-beta failed.
+
+2022-08-31 14:27:40,596 WARN clear all config-info-beta-tenant failed.
+
+2022-08-31 14:27:40,597 INFO start clear all config-info-tag.
+
+2022-08-31 14:27:40,597 WARN clear all config-info-tag failed.
+
+2022-08-31 14:27:40,597 WARN clear all config-info-tag-tenant failed.
+
+2022-08-31 14:27:40,598 WARN initialDelay:245
+

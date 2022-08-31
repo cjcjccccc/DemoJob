@@ -1,0 +1,25 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: config-client
+  cloud:
+    #config\u5BA2\u6237\u7AEF\u914D\u7F6E
+    config:
+      label: main #\u5206\u652F\u540D\u79F0
+      name: config #\u914D\u7F6E\u6587\u4EF6\u540D\u79F0
+      profile: dev #\u8BFB\u53D6\u540E\u7F00\u540D\u79F0
+      #  \u8FD9\u4E09\u4E2A\u6807\u7B7E\u5C31\u662F \u6307\u660E\u4E86\u8981\u8BFB\u53D6 main\u5206\u652F\u4E0A\u7684config-dev\u6587\u4EF6
+      uri: http://localhost:8090 # \u914D\u7F6E\u4E2D\u5FC3\u7684\u5730\u5740
+# \u5408\u8D77\u6765\u5C31\u662F http://localhost:8090/main/config-dev.yml
+
+eureka:
+  client:
+    service-url:
+      defaultzone: http://eureka1:8761/eureka
+#\u66B4\u9732\u76D1\u63A7\u7AEF\u70B9
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"

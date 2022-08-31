@@ -1,0 +1,2283 @@
+2022-08-31 09:23:36,231 INFO raft peers changed: [Member{ip='192.168.80.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-08-31 09:23:36,243 INFO initializing Raft sub-system
+
+2022-08-31 09:23:36,243 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-08-31 09:23:36,245 INFO cache loaded, datum count: 0, current term: 0
+
+2022-08-31 09:23:36,245 INFO finish to load data from disk, cost: 2 ms.
+
+2022-08-31 09:23:36,247 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-08-31 09:23:36,535 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-31 09:23:36,543 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-31 09:23:41,191 WARN start to close old raft protocol!!!
+
+2022-08-31 09:23:41,191 WARN stop old raft protocol task for notifier
+
+2022-08-31 09:23:41,191 WARN stop old raft protocol task for master task
+
+2022-08-31 09:23:41,191 WARN stop old raft protocol task for heartbeat task
+
+2022-08-31 09:23:41,191 WARN clean old cache datum for old raft
+
+2022-08-31 09:23:41,191 WARN start to close old raft protocol!!!
+
+2022-08-31 09:23:41,191 WARN stop old raft protocol task for notifier
+
+2022-08-31 09:23:41,191 WARN stop old raft protocol task for master task
+
+2022-08-31 09:23:41,191 WARN stop old raft protocol task for heartbeat task
+
+2022-08-31 09:23:41,191 WARN clean old cache datum for old raft
+
+2022-08-31 09:23:41,191 WARN start to move old raft protocol metadata
+
+2022-08-31 09:23:41,196 WARN start to move old raft protocol metadata
+
+2022-08-31 09:23:41,199 INFO raft peers changed: [Member{ip='192.168.80.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661909021197, raftPort=7848, version=1.4.4}}]
+
+2022-08-31 10:38:02,516 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@config-client-a
+
+2022-08-31 14:15:33,333 INFO raft peers changed: [Member{ip='192.168.80.1', port=8850, state=UP, extendInfo={raftPort=7850}}]
+
+2022-08-31 14:15:33,348 INFO initializing Raft sub-system
+
+2022-08-31 14:15:33,349 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-08-31 14:15:33,349 INFO cache loaded, datum count: 0, current term: 0
+
+2022-08-31 14:15:33,349 INFO finish to load data from disk, cost: 1 ms.
+
+2022-08-31 14:15:33,352 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-08-31 14:15:33,601 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-31 14:15:33,611 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-31 14:15:37,913 INFO leader timeout, start voting,leader: {"ip":"192.168.80.1:8850","term":0,"leaderDueMs":15866,"heartbeatDueMs":5000,"state":"FOLLOWER"}, term: 0
+
+2022-08-31 14:15:38,328 WARN start to close old raft protocol!!!
+
+2022-08-31 14:15:38,328 WARN stop old raft protocol task for notifier
+
+2022-08-31 14:15:38,328 WARN stop old raft protocol task for master task
+
+2022-08-31 14:15:38,328 WARN stop old raft protocol task for heartbeat task
+
+2022-08-31 14:15:38,328 WARN clean old cache datum for old raft
+
+2022-08-31 14:15:38,328 WARN start to close old raft protocol!!!
+
+2022-08-31 14:15:38,328 WARN stop old raft protocol task for notifier
+
+2022-08-31 14:15:38,328 WARN stop old raft protocol task for master task
+
+2022-08-31 14:15:38,328 WARN stop old raft protocol task for heartbeat task
+
+2022-08-31 14:15:38,328 WARN clean old cache datum for old raft
+
+2022-08-31 14:15:38,328 WARN start to move old raft protocol metadata
+
+2022-08-31 14:15:38,332 WARN start to move old raft protocol metadata
+
+2022-08-31 14:15:38,333 INFO raft peers changed: [Member{ip='192.168.80.1', port=8850, state=UP, extendInfo={lastRefreshTime=1661926538332, raftPort=7850, version=1.4.4}}]
+
+2022-08-31 14:24:18,438 INFO raft peers changed: [Member{ip='127.0.0.1.8850', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.101', port=8847, state=DOWN, extendInfo={raftPort=7847}}, Member{ip='192.168.16.102', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8850, state=UP, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1.8849', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.103', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:24:18,452 INFO initializing Raft sub-system
+
+2022-08-31 14:24:18,452 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-08-31 14:24:18,453 INFO cache loaded, datum count: 0, current term: 0
+
+2022-08-31 14:24:18,453 INFO finish to load data from disk, cost: 1 ms.
+
+2022-08-31 14:24:18,455 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-08-31 14:24:19,072 INFO Raft group naming_persistent_service has leader null
+
+2022-08-31 14:24:19,426 INFO raft peers changed: [Member{ip='127.0.0.1.8850', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.101', port=8847, state=DOWN, extendInfo={raftPort=7847}}, Member{ip='192.168.16.102', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8850, state=UP, extendInfo={raftPort=7850, version=1.4.4}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1.8849', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.103', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:24:19,987 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-31 14:24:19,999 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-31 14:24:30,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:24:32,465 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-08-31 14:24:32,475 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:32,476 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:34,513 ERROR error while sending vote to server: 127.0.0.1:8848
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:38,168 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:38,168 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:38,168 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:45,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:24:51,968 INFO leader timeout, start voting,leader: null, term: 1
+
+2022-08-31 14:24:51,970 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:51,970 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:54,019 ERROR error while sending vote to server: 127.0.0.1:8848
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:57,314 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:57,314 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:24:57,314 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:00,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:25:07,898 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@config-client-a, value: Service{name='DEFAULT_GROUP@@config-client-a', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-31 14:25:07,901 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@config-client-a
+
+2022-08-31 14:25:09,955 INFO leader timeout, start voting,leader: null, term: 2
+
+2022-08-31 14:25:09,957 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:09,958 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:09,970 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:25:15,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:25:15,795 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:15,795 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:15,795 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:28,960 INFO leader timeout, start voting,leader: null, term: 3
+
+2022-08-31 14:25:28,962 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:28,962 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:28,970 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:25:30,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:25:34,826 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:34,827 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:34,827 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:44,967 INFO leader timeout, start voting,leader: null, term: 4
+
+2022-08-31 14:25:44,970 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:44,970 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:45,013 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:25:45,988 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:25:51,068 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:51,068 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:25:51,068 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:00,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:26:00,459 INFO leader timeout, start voting,leader: null, term: 5
+
+2022-08-31 14:26:00,461 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:00,461 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:01,475 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:26:05,909 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:05,909 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:07,640 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:15,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:26:16,960 INFO leader timeout, start voting,leader: null, term: 6
+
+2022-08-31 14:26:16,960 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:16,960 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:16,964 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:26:22,164 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:22,164 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:22,164 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:30,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:26:36,965 INFO leader timeout, start voting,leader: null, term: 7
+
+2022-08-31 14:26:36,965 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:36,965 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:36,968 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:26:42,197 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:42,197 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:42,198 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:45,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:26:52,969 INFO leader timeout, start voting,leader: null, term: 8
+
+2022-08-31 14:26:52,970 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:52,970 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:52,973 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:26:58,891 ERROR error while sending vote to server: 192.168.16.101:8847
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.101:8847]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:58,891 ERROR error while sending vote to server: 192.168.16.103:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.103:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:26:58,891 ERROR error while sending vote to server: 192.168.16.102:8848
+
+java.net.ConnectException: Timeout connecting to [/192.168.16.102:8848]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:27:00,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:27:10,455 INFO leader timeout, start voting,leader: null, term: 9
+
+2022-08-31 14:27:10,455 ERROR error while sending vote to server: 127.0.0.1.8850:8848
+
+java.net.UnknownHostException: 127.0.0.1.8850
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:27:10,455 ERROR error while sending vote to server: 127.0.0.1.8849:8848
+
+java.net.UnknownHostException: 127.0.0.1.8849
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:67)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:189)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:146)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-08-31 14:27:11,468 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:27:39,200 INFO raft peers changed: [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8850, state=UP, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:27:39,217 INFO initializing Raft sub-system
+
+2022-08-31 14:27:39,217 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-08-31 14:27:39,219 INFO cache loaded, datum count: 0, current term: 0
+
+2022-08-31 14:27:39,219 INFO finish to load data from disk, cost: 2 ms.
+
+2022-08-31 14:27:39,222 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-08-31 14:27:39,864 INFO Raft group naming_persistent_service has leader null
+
+2022-08-31 14:27:40,177 INFO raft peers changed: [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8850, state=UP, extendInfo={raftPort=7850, version=1.4.4}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:27:40,490 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-31 14:27:40,502 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-31 14:27:41,290 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@config-client-a, value: Service{name='DEFAULT_GROUP@@config-client-a', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-31 14:27:41,291 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@config-client-a
+
+2022-08-31 14:27:45,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:27:50,721 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-08-31 14:27:50,728 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:27:50,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:27:50,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:27:50,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:00,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:28:10,228 INFO leader timeout, start voting,leader: null, term: 1
+
+2022-08-31 14:28:10,239 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:10,239 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:10,239 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:10,240 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:15,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:28:28,225 INFO leader timeout, start voting,leader: null, term: 2
+
+2022-08-31 14:28:28,230 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:28,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:28,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:28,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:30,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:28:45,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:28:45,733 INFO leader timeout, start voting,leader: null, term: 3
+
+2022-08-31 14:28:45,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:45,736 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:45,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:28:45,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:00,001 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:29:03,224 INFO leader timeout, start voting,leader: null, term: 4
+
+2022-08-31 14:29:03,232 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:03,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:03,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:03,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:15,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:29:22,721 INFO leader timeout, start voting,leader: null, term: 5
+
+2022-08-31 14:29:22,727 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:22,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:22,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:22,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:30,005 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:29:41,234 INFO leader timeout, start voting,leader: null, term: 6
+
+2022-08-31 14:29:41,240 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:41,242 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:41,242 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:41,243 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:29:45,015 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:30:00,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:30:00,736 INFO leader timeout, start voting,leader: null, term: 7
+
+2022-08-31 14:30:00,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:00,738 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:00,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:00,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:15,008 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:30:20,726 INFO leader timeout, start voting,leader: null, term: 8
+
+2022-08-31 14:30:20,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:20,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:20,730 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:20,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:30,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:30:40,234 INFO leader timeout, start voting,leader: null, term: 9
+
+2022-08-31 14:30:40,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:40,237 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:40,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:40,238 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:45,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:30:57,229 INFO leader timeout, start voting,leader: null, term: 10
+
+2022-08-31 14:30:57,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:57,238 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:57,238 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:30:57,239 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:00,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:31:13,733 INFO leader timeout, start voting,leader: null, term: 11
+
+2022-08-31 14:31:13,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:13,738 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:13,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:13,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:15,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:31:30,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:31:32,729 INFO leader timeout, start voting,leader: null, term: 12
+
+2022-08-31 14:31:32,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:32,733 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:32,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:32,734 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:45,005 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:31:48,226 INFO leader timeout, start voting,leader: null, term: 13
+
+2022-08-31 14:31:48,232 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:48,233 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:48,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:31:48,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:00,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:32:08,224 INFO leader timeout, start voting,leader: null, term: 14
+
+2022-08-31 14:32:08,227 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:08,227 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:08,227 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:08,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:15,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:32:25,730 INFO leader timeout, start voting,leader: null, term: 15
+
+2022-08-31 14:32:25,734 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:25,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:25,735 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:25,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:30,004 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:32:44,729 INFO leader timeout, start voting,leader: null, term: 16
+
+2022-08-31 14:32:44,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:44,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:44,733 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:44,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:32:45,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:33:00,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:33:02,723 INFO leader timeout, start voting,leader: null, term: 17
+
+2022-08-31 14:33:02,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:02,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:02,729 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:02,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:15,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:33:22,227 INFO leader timeout, start voting,leader: null, term: 18
+
+2022-08-31 14:33:22,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:22,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:22,233 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:22,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:30,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:33:37,734 INFO leader timeout, start voting,leader: null, term: 19
+
+2022-08-31 14:33:37,737 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:37,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:37,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:37,741 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:45,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:33:55,726 INFO leader timeout, start voting,leader: null, term: 20
+
+2022-08-31 14:33:55,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:55,731 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:55,731 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:33:55,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:00,005 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:34:11,728 INFO leader timeout, start voting,leader: null, term: 21
+
+2022-08-31 14:34:11,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:11,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:11,734 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:11,734 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:15,004 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:34:28,735 INFO leader timeout, start voting,leader: null, term: 22
+
+2022-08-31 14:34:28,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:28,736 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:28,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:28,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:30,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:34:44,726 INFO leader timeout, start voting,leader: null, term: 23
+
+2022-08-31 14:34:44,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:44,729 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:44,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:44,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:34:45,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:35:00,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:35:03,735 INFO leader timeout, start voting,leader: null, term: 24
+
+2022-08-31 14:35:03,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:03,743 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:03,743 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:03,743 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:15,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:35:21,235 INFO leader timeout, start voting,leader: null, term: 25
+
+2022-08-31 14:35:21,239 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:21,240 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:21,241 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:21,242 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:30,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:35:38,231 INFO leader timeout, start voting,leader: null, term: 26
+
+2022-08-31 14:35:38,233 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:38,234 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:38,234 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:38,234 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:45,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:35:54,728 INFO leader timeout, start voting,leader: null, term: 27
+
+2022-08-31 14:35:54,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:54,733 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:54,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:35:54,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:00,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:36:10,725 INFO leader timeout, start voting,leader: null, term: 28
+
+2022-08-31 14:36:10,727 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:10,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:10,728 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:10,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:15,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:36:30,011 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:36:30,726 INFO leader timeout, start voting,leader: null, term: 29
+
+2022-08-31 14:36:30,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:30,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:30,732 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:30,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:45,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:36:50,721 INFO leader timeout, start voting,leader: null, term: 30
+
+2022-08-31 14:36:50,725 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:50,727 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:50,727 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:36:50,727 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:00,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:37:07,224 INFO leader timeout, start voting,leader: null, term: 31
+
+2022-08-31 14:37:07,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:07,231 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:07,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:07,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:15,001 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:37:26,231 INFO leader timeout, start voting,leader: null, term: 32
+
+2022-08-31 14:37:26,234 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:26,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:26,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:26,236 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:30,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:37:45,013 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:37:46,224 INFO leader timeout, start voting,leader: null, term: 33
+
+2022-08-31 14:37:46,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:46,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:46,231 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:37:46,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:00,005 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:38:06,226 INFO leader timeout, start voting,leader: null, term: 34
+
+2022-08-31 14:38:06,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:06,231 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:06,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:06,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:15,008 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:38:25,235 INFO leader timeout, start voting,leader: null, term: 35
+
+2022-08-31 14:38:25,243 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:25,244 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:25,244 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:25,244 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:30,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:38:44,734 INFO leader timeout, start voting,leader: null, term: 36
+
+2022-08-31 14:38:44,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:44,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:44,739 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:44,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:38:45,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:39:00,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:39:00,732 INFO leader timeout, start voting,leader: null, term: 37
+
+2022-08-31 14:39:00,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:00,736 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:00,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:00,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:15,004 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:39:16,732 INFO leader timeout, start voting,leader: null, term: 38
+
+2022-08-31 14:39:16,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:16,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:16,736 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:16,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:30,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:39:32,222 INFO leader timeout, start voting,leader: null, term: 39
+
+2022-08-31 14:39:32,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:32,228 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:32,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:32,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:45,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:39:51,722 INFO leader timeout, start voting,leader: null, term: 40
+
+2022-08-31 14:39:51,724 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:51,725 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:51,725 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:39:51,725 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:00,001 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:40:09,724 INFO leader timeout, start voting,leader: null, term: 41
+
+2022-08-31 14:40:09,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:09,730 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:09,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:09,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:15,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:40:29,733 INFO leader timeout, start voting,leader: null, term: 42
+
+2022-08-31 14:40:29,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:29,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:29,739 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:29,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:30,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:40:45,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:40:47,225 INFO leader timeout, start voting,leader: null, term: 43
+
+2022-08-31 14:40:47,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:47,231 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:47,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:40:47,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:00,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:41:06,229 INFO leader timeout, start voting,leader: null, term: 44
+
+2022-08-31 14:41:06,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:06,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:06,233 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:06,234 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:15,005 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:41:25,221 INFO leader timeout, start voting,leader: null, term: 45
+
+2022-08-31 14:41:25,225 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:25,226 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:25,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:25,227 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:30,011 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:41:42,234 INFO leader timeout, start voting,leader: null, term: 46
+
+2022-08-31 14:41:42,239 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:42,241 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:42,242 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:42,243 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:45,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:41:59,233 INFO leader timeout, start voting,leader: null, term: 47
+
+2022-08-31 14:41:59,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:59,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:59,236 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:41:59,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:00,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:42:15,000 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:42:16,735 INFO leader timeout, start voting,leader: null, term: 48
+
+2022-08-31 14:42:16,738 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:16,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:16,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:16,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:30,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:42:36,222 INFO leader timeout, start voting,leader: null, term: 49
+
+2022-08-31 14:42:36,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:36,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:36,228 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:36,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:45,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:42:52,233 INFO leader timeout, start voting,leader: null, term: 50
+
+2022-08-31 14:42:52,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:52,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:52,236 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:42:52,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:00,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:43:09,224 INFO leader timeout, start voting,leader: null, term: 51
+
+2022-08-31 14:43:09,227 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:09,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:09,230 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:09,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:15,000 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:43:27,724 INFO leader timeout, start voting,leader: null, term: 52
+
+2022-08-31 14:43:27,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:27,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:27,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:27,730 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:30,013 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:43:43,220 INFO leader timeout, start voting,leader: null, term: 53
+
+2022-08-31 14:43:43,224 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:43,226 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:43,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:43,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:43:45,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:44:00,011 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:44:00,229 INFO leader timeout, start voting,leader: null, term: 54
+
+2022-08-31 14:44:00,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:00,236 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:00,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:00,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:15,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:44:17,735 INFO leader timeout, start voting,leader: null, term: 55
+
+2022-08-31 14:44:17,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:17,741 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:17,741 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:17,742 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:30,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:44:33,725 INFO leader timeout, start voting,leader: null, term: 56
+
+2022-08-31 14:44:33,729 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:33,731 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:33,731 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:33,732 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:45,015 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:44:51,724 INFO leader timeout, start voting,leader: null, term: 57
+
+2022-08-31 14:44:51,728 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:51,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:51,730 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:44:51,731 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:00,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:45:09,232 INFO leader timeout, start voting,leader: null, term: 58
+
+2022-08-31 14:45:09,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:09,237 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:09,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:09,238 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:15,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:45:26,730 INFO leader timeout, start voting,leader: null, term: 59
+
+2022-08-31 14:45:26,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:26,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:26,735 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:26,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:30,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:45:42,721 INFO leader timeout, start voting,leader: null, term: 60
+
+2022-08-31 14:45:42,725 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:42,727 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:42,727 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:42,727 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:45:45,013 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:46:00,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:46:01,226 INFO leader timeout, start voting,leader: null, term: 61
+
+2022-08-31 14:46:01,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:01,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:01,232 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:01,232 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:15,013 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:46:17,220 INFO leader timeout, start voting,leader: null, term: 62
+
+2022-08-31 14:46:17,222 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:17,223 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:17,223 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:17,224 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:30,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:46:37,224 INFO leader timeout, start voting,leader: null, term: 63
+
+2022-08-31 14:46:37,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:37,226 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:37,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:37,227 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:45,005 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:46:54,233 INFO leader timeout, start voting,leader: null, term: 64
+
+2022-08-31 14:46:54,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:54,236 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:54,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:46:54,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:00,001 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:47:11,728 INFO leader timeout, start voting,leader: null, term: 65
+
+2022-08-31 14:47:11,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:11,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:11,730 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:11,731 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:15,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:47:28,729 INFO leader timeout, start voting,leader: null, term: 66
+
+2022-08-31 14:47:28,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:28,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:28,733 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:28,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:30,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:47:45,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:47:46,726 INFO leader timeout, start voting,leader: null, term: 67
+
+2022-08-31 14:47:46,730 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:46,732 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:46,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:47:46,732 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:00,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:48:05,734 INFO leader timeout, start voting,leader: null, term: 68
+
+2022-08-31 14:48:05,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:05,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:05,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:05,740 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:15,013 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:48:24,229 INFO leader timeout, start voting,leader: null, term: 69
+
+2022-08-31 14:48:24,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:24,235 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:24,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:24,236 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:30,012 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:48:41,729 INFO leader timeout, start voting,leader: null, term: 70
+
+2022-08-31 14:48:41,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:41,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:41,733 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:41,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:45,006 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:48:58,734 INFO leader timeout, start voting,leader: null, term: 71
+
+2022-08-31 14:48:58,738 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:58,739 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:58,739 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:48:58,740 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:00,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:49:15,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:49:15,225 INFO leader timeout, start voting,leader: null, term: 72
+
+2022-08-31 14:49:15,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:15,230 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:15,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:15,231 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:30,007 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:49:35,228 INFO leader timeout, start voting,leader: null, term: 73
+
+2022-08-31 14:49:35,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:35,229 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:35,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:35,230 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:45,008 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:49:51,224 INFO leader timeout, start voting,leader: null, term: 74
+
+2022-08-31 14:49:51,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:51,229 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:51,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:49:51,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:00,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:50:10,730 INFO leader timeout, start voting,leader: null, term: 75
+
+2022-08-31 14:50:10,734 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:10,734 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:10,734 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:10,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:15,008 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:50:26,224 INFO leader timeout, start voting,leader: null, term: 76
+
+2022-08-31 14:50:26,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:26,227 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:26,227 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:26,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:30,010 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:50:44,733 INFO leader timeout, start voting,leader: null, term: 77
+
+2022-08-31 14:50:44,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:44,737 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:44,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:44,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:50:45,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:51:00,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:51:04,734 INFO leader timeout, start voting,leader: null, term: 78
+
+2022-08-31 14:51:04,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:04,736 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:04,736 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:04,737 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:15,008 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:51:23,721 INFO leader timeout, start voting,leader: null, term: 79
+
+2022-08-31 14:51:23,723 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:23,723 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:23,723 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:23,724 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:30,001 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:51:43,231 INFO leader timeout, start voting,leader: null, term: 80
+
+2022-08-31 14:51:43,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:43,237 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:43,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:43,237 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:51:45,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:52:00,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:52:00,222 INFO leader timeout, start voting,leader: null, term: 81
+
+2022-08-31 14:52:00,226 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:00,228 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:00,228 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:00,229 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:15,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:52:17,228 INFO leader timeout, start voting,leader: null, term: 82
+
+2022-08-31 14:52:17,232 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:17,233 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:17,233 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:17,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:30,009 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:52:33,722 INFO leader timeout, start voting,leader: null, term: 83
+
+2022-08-31 14:52:33,724 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:33,726 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:33,726 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:33,727 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:45,002 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:52:53,729 INFO leader timeout, start voting,leader: null, term: 84
+
+2022-08-31 14:52:53,733 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:53,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:53,735 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:52:53,735 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:00,003 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:53:09,721 INFO leader timeout, start voting,leader: null, term: 85
+
+2022-08-31 14:53:09,724 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:09,725 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:09,725 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:09,725 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:15,014 WARN [IS LEADER] no leader is available now!
+
+2022-08-31 14:53:27,229 INFO leader timeout, start voting,leader: null, term: 86
+
+2022-08-31 14:53:27,232 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8850/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:27,234 ERROR NACOS-RAFT vote failed: 400, url: http://192.168.80.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:27,234 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8848/nacos/v1/ns/raft/vote
+
+2022-08-31 14:53:27,235 ERROR NACOS-RAFT vote failed: 400, url: http://127.0.0.1:8849/nacos/v1/ns/raft/vote
+

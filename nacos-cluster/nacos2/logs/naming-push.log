@@ -1,0 +1,38 @@
+2022-08-31 10:38:03,663 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 10:38:03,681 INFO serviceName: DEFAULT_GROUP@@config-client-a changed, schedule push for: 172.17.6.81:50620, agent: Nacos-Java-Client:v1.4.2, key: 172.17.6.81,50620,6480401165600
+
+2022-08-31 10:38:03,681 INFO send udp packet: 172.17.6.81,50620,6480401165600
+
+2022-08-31 10:38:03,685 INFO received ack: {"type": "push-ack", "lastRefTime":"6480401165600", "data":""} from: 172.17.6.81:50620, cost: 4 ms, unacked: 0, total push: 1
+
+2022-08-31 10:55:52,127 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 10:55:52,129 INFO serviceName: DEFAULT_GROUP@@config-client-a changed, schedule push for: 172.17.6.81:61040, agent: Nacos-Java-Client:v1.4.2, key: 172.17.6.81,61040,7548856689100
+
+2022-08-31 10:55:52,129 INFO send udp packet: 172.17.6.81,61040,7548856689100
+
+2022-08-31 10:55:52,134 INFO received ack: {"type": "push-ack", "lastRefTime":"7548856689100", "data":""} from: 172.17.6.81:61040, cost: 5 ms, unacked: 0, total push: 2
+
+2022-08-31 11:09:14,490 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 11:09:14,490 INFO serviceName: DEFAULT_GROUP@@config-client-a changed, schedule push for: 172.17.6.81:58401, agent: Nacos-Java-Client:v1.4.2, key: 172.17.6.81,58401,8351218005000
+
+2022-08-31 11:09:14,490 INFO send udp packet: 172.17.6.81,58401,8351218005000
+
+2022-08-31 11:09:14,493 INFO received ack: {"type": "push-ack", "lastRefTime":"8351218005000", "data":""} from: 172.17.6.81:58401, cost: 3 ms, unacked: 0, total push: 3
+
+2022-08-31 14:25:33,317 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 14:25:38,317 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 14:27:04,287 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 14:27:35,982 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 14:27:39,722 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 14:47:16,426 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+
+2022-08-31 14:47:17,606 INFO DEFAULT_GROUP@@config-client-a is changed, add it to push queue.
+

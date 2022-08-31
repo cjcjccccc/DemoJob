@@ -1,0 +1,14 @@
+server:
+  port: 80
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true #\u52A8\u6001\u8DEF\u7531
+          lower-case-service-id: true

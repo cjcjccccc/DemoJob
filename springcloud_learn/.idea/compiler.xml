@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ordre_service" />
+        <module name="05_zuul" />
+        <module name="config-client" />
+        <module name="userservice" />
+        <module name="user-service" />
+        <module name="03_openfeign" />
+        <module name="02_ribbon" />
+        <module name="payment-service" />
+        <module name="eureka_server" />
+        <module name="provider_1" />
+        <module name="eureka_server_2" />
+        <module name="eureka_server_3" />
+        <module name="provider_2" />
+        <module name="consumer" />
+        <module name="07_config" />
+        <module name="01_eureka" />
+        <module name="zuul" />
+        <module name="config-server" />
+        <module name="user_service" />
+        <module name="eureka_client" />
+        <module name="06_gateway" />
+        <module name="gateway-server" />
+        <module name="order-service" />
+        <module name="04_hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="07_nacos_discover" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="eureka_client" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="eureka_server_2" options="-parameters" />
+      <module name="eureka_server_3" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="ordre_service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="provider_1" options="-parameters" />
+      <module name="provider_2" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="user_service" options="-parameters" />
+      <module name="userservice" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

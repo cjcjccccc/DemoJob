@@ -1,0 +1,22 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:cjcjccccc/springcloud_config.git  #github\u4E0A\u7684\u4ED3\u5E93\u5730\u5740
+          search-path:
+            - springcloud_config #\u4ED3\u5E93\u540D\u79F0
+      label: main #\u8BFB\u53D6\u5206\u652F
+
+eureka:
+  client:
+    service-url:
+      defaultzone: http://eureka1:8761/eureka
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}

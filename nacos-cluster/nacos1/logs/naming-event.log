@@ -1,0 +1,68 @@
+2022-08-31 10:38:02,650 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 10:38:02,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 10:55:51,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 11:09:13,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:11:17,096 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-08-31 14:14:17,581 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-08-31 14:14:31,715 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:14:31,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:07,232 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:25:07,233 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:09,348 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:24,935 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:29,828 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:34,843 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:39,295 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:25:39,296 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:25:39,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:25:40,071 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:25:46,423 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:25:46,423 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:48,571 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:54,327 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:25:54,327 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:25:56,451 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:25:56,451 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:25:58,560 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:27:28,372 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:27:28,374 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:27:30,566 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:47:13,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 192.168.80.1:8080_true,
+
+2022-08-31 14:47:14,478 INFO DEFAULT_GROUP@@config-client-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.80.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-31 14:47:14,478 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:47:15,408 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+
+2022-08-31 14:47:16,600 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@config-client-a, ips: 
+

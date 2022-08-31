@@ -1,0 +1,20 @@
+server:
+  port: 8762
+#服务名相同
+spring:
+  application:
+    name: eureka-server
+
+#配置eureka-server集群
+eureka:
+  client:
+    service-url: #eureka 服务端和客户端的交互地址,集群用,隔开
+      defaultZone: http://eureka1:8761/eureka,http://eureka3:8763/eureka
+    fetch-registry: true #是否拉取服务列表
+    register-with-eureka: true #是否注册自己（单机一般关闭注册自己,集群注意打开）
+  server:
+    eviction-interval-timer-in-ms: 30000
+  instance:
+    lease-expiration-duration-in-seconds: 90
+
+

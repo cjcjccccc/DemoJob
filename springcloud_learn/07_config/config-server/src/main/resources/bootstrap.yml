@@ -1,0 +1,20 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: config-client
+  cloud:
+    #config客户端配置
+    config:
+     label: main #分支名称
+     name: config #配置文件名称
+     profile: dev #读取后缀名称
+#  这三个标签就是 指明了要读取 main分支上的config-dev文件
+     uri: http://localhost:8090 # 配置中心的地址
+# 合起来就是 http://localhost:8090/main/config-dev.yml
+
+eureka:
+  client:
+    service-url:
+      defaultzone: http://eureka1:8761/eureka
+

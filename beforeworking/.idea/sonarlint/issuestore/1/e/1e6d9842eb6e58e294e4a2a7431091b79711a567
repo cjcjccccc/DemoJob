@@ -1,0 +1,18 @@
+
+`
+java:S1192"KDefine a constant instead of duplicating this literal "c++å¼€å‘" 16 times.(¥€òI
+b
+java:S1192"GDefine a constant instead of duplicating this literal "------" 4 times.(şú±Ÿûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¯¦§Èûÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²¥º
+S	java:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²¥º
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
+M	java:S106+"9Replace this use of System.out or System.err by a logger.(²¥º
+S	java:S106."9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Ï€¢†ıÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(‚é€Şûÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ

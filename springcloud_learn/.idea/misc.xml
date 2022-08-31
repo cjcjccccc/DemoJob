@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/01_eureka/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/01_eureka/eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/01_eureka/eureka_server_2/pom.xml" />
+        <option value="$PROJECT_DIR$/01_eureka/eureka_server_3/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ribbon/provider_1/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ribbon/provider_2/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ribbon/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/03_openfeign/ordre_service/pom.xml" />
+        <option value="$PROJECT_DIR$/03_openfeign/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/04_hystrix/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/04_hystrix/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/05_zuul/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/05_zuul/payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/06_gateway/gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/06_gateway/userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/07_config/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/07_config/config-client/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/07_nacos_discover/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

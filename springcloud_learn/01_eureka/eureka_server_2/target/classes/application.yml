@@ -1,0 +1,20 @@
+server:
+  port: 8762
+#��������ͬ
+spring:
+  application:
+    name: eureka-server
+
+#����eureka-server��Ⱥ
+eureka:
+  client:
+    service-url: #eureka ����˺Ϳͻ��˵Ľ�����ַ,��Ⱥ��,����
+      defaultZone: http://eureka1:8761/eureka,http://eureka3:8763/eureka
+    fetch-registry: true #�Ƿ���ȡ�����б�
+    register-with-eureka: true #�Ƿ�ע���Լ�������һ��ر�ע���Լ�,��Ⱥע��򿪣�
+  server:
+    eviction-interval-timer-in-ms: 30000
+  instance:
+    lease-expiration-duration-in-seconds: 90
+
+

@@ -1,0 +1,20 @@
+server:
+  port: 8071
+spring:
+  application:
+    name: zuul-service
+
+eureka:
+  client:
+    service-url:
+      defaultzone: http://eureka1:8761/eureka
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+
+zuul:
+  routes:
+    payment:
+      path: /payment/**
+      serviceId: payment-service

@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-client-a
+
+
+  cloud:
+    nacos:
+      server-addr: localhost:8848 # 注册中心地址
+      config:
+        file-extension: yaml   #配置文件类型
+        prefix: config   #读那个配置文件，默认是name 服务名
+        group: DEV_GROUP #组别
+        namespace: 522380ff-797d-4bb9-a97b-2351a0c953fe #命名空间
+  profiles:
+#    active: test #测试环境
+    active: dev #开发环境
+
+

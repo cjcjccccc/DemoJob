@@ -1,0 +1,152 @@
+2022-08-31 09:23:36,160 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-08-31 09:23:36,163 WARN [serverlist] updated to : [Member{ip='192.168.80.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-08-31 09:23:37,563 INFO This node is ready to provide external services
+
+2022-08-31 14:14:54,651 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-08-31 14:14:54,653 WARN [serverlist] updated to : [Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}]
+
+2022-08-31 14:14:55,643 INFO This node is ready to provide external services
+
+2022-08-31 14:24:42,838 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-31 14:24:42,839 WARN [serverlist] self ip Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849, version=1.4.4}} not in serverlist [Member{ip='127.0.0.1.8850', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.16.101', port=8847, state=UP, extendInfo={raftPort=7847}}, Member{ip='192.168.16.102', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849, version=1.4.4}}, Member{ip='192.168.16.103', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1.8849', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:24:42,840 WARN [serverlist] updated to : [Member{ip='127.0.0.1.8850', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.101', port=8847, state=DOWN, extendInfo={raftPort=7847}}, Member{ip='192.168.16.102', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849, version=1.4.4}}, Member{ip='127.0.0.1.8849', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.103', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:24:42,852 WARN [serverlist] updated to : [Member{ip='127.0.0.1.8850', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.101', port=8847, state=DOWN, extendInfo={raftPort=7847}}, Member{ip='192.168.16.102', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1.8849', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.103', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:24:42,852 WARN [serverlist] updated to : [Member{ip='127.0.0.1.8850', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.101', port=8847, state=DOWN, extendInfo={raftPort=7847}}, Member{ip='192.168.16.102', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1.8849', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.16.103', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:24:45,188 INFO This node is ready to provide external services
+
+2022-08-31 14:24:50,245 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:24:54,298 ERROR failed to report new info to target node : 127.0.0.1:8848, error : caused: Connection refused: no further information;
+
+2022-08-31 14:24:59,262 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:25:00,266 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:25:01,277 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:25:02,278 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:25:03,283 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:25:11,334 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:25:12,332 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:25:13,353 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:25:14,340 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:25:15,361 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:25:23,377 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:25:24,374 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:25:25,400 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:25:26,380 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:25:27,424 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:25:35,427 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:25:36,424 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:25:37,447 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:25:38,427 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:25:39,462 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:25:47,463 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:25:48,473 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:25:49,486 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:25:50,485 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:25:51,507 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:25:59,524 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:26:00,537 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:26:01,547 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:26:02,544 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:26:03,569 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:26:11,604 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:26:12,595 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:26:13,615 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:26:14,609 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:26:15,636 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:26:23,650 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:26:24,658 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:26:25,666 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:26:26,661 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:26:27,689 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:26:35,689 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:26:36,685 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:26:37,711 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:26:38,691 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:26:39,734 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:26:47,742 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:26:48,734 ERROR failed to report new info to target node : 127.0.0.1.8849:8848, error : caused: 127.0.0.1.8849;
+
+2022-08-31 14:26:49,759 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:26:50,739 ERROR failed to report new info to target node : 127.0.0.1.8850:8848, error : caused: 127.0.0.1.8850;
+
+2022-08-31 14:26:51,782 ERROR failed to report new info to target node : 192.168.16.103:8848, error : caused: Timeout connecting to [/192.168.16.103:8848];
+
+2022-08-31 14:26:56,981 WARN [serverlist] self ip Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849, version=1.4.4}} not in serverlist [Member{ip='127.0.0.1', port=8850, state=UP, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849, version=1.4.4}}, Member{ip='192.168.80.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:26:56,981 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849, version=1.4.4}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:26:56,987 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:26:56,988 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:26:56,989 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:26:59,794 ERROR failed to report new info to target node : 192.168.16.101:8847, error : caused: Timeout connecting to [/192.168.16.101:8847];
+
+2022-08-31 14:27:01,810 ERROR failed to report new info to target node : 192.168.16.102:8848, error : caused: Timeout connecting to [/192.168.16.102:8848];
+
+2022-08-31 14:27:32,484 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-31 14:27:32,489 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:27:32,498 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:27:32,499 WARN [serverlist] updated to : [Member{ip='127.0.0.1', port=8850, state=DOWN, extendInfo={raftPort=7850}}, Member{ip='127.0.0.1', port=8849, state=DOWN, extendInfo={raftPort=7849}}, Member{ip='127.0.0.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}, Member{ip='192.168.80.1', port=8849, state=UP, extendInfo={raftPort=7849}}, Member{ip='192.168.80.1', port=8848, state=DOWN, extendInfo={raftPort=7848}}]
+
+2022-08-31 14:27:34,889 INFO This node is ready to provide external services
+

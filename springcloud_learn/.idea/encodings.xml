@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/01_eureka/eureka_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_eureka/eureka_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_eureka/eureka_server_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_eureka/eureka_server_3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_ribbon/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_ribbon/provider_1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_ribbon/provider_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_openfeign/ordre_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_openfeign/user_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_hystrix/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_hystrix/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_zuul/payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_zuul/zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_gateway/gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_gateway/userservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_config/config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_config/config-server/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
